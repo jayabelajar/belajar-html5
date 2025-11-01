@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <!-- Metadata dasar -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO & Info halaman -->
+  <title>Portofolio — Anya Forger</title>
+  <meta name="description" content="Contoh portofolio HTML5 sederhana tanpa CSS. Menerapkan elemen semantik, form, media, dan tabel.">
+
+  <!-- Open Graph untuk sosial media -->
+  <meta property="og:title" content="Portofolio — Anya Forger">
+  <meta property="og:description" content="Portofolio HTML5 sederhana, tanpa CSS, fokus struktur semantik.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com">
+  <meta property="og:image" content="https://example.com/html5-banner.jpg">
+
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>Portofolio — Anya Forger</h1>
+    <nav aria-label="Navigasi utama">
+      <a href="#tentang">Tentang</a> |
+      <a href="#proyek">Proyek</a> |
+      <a href="#keahlian">Keahlian</a> |
+      <a href="#pengalaman">Pengalaman</a> |
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <!-- KONTEN UTAMA -->
+  <main id="beranda">
+    <!-- TENTANG -->
+    <section id="tentang" aria-labelledby="judul-tentang">
+      <h2 id="judul-tentang">Tentang Saya</h2>
+      <figure>
+        <img src="https://akcdn.detik.net.id/visual/2022/06/30/anime-spy-x-family-anya-forger_169.jpeg?w=1200" alt="Foto profil Anya Forger" width="160">
+        <figcaption>Profil — Anya Forger</figcaption>
+      </figure>
+      <p>
+        Saya seorang pengembang web pemula yang fokus pada HTML5, CSS, dan JavaScript.
+        Suka mempelajari teknologi baru dan membuat proyek sederhana sebagai latihan.
+      </p>
+      <p>
+        Email: <a href="mailto:anya@example.com">anya@example.com</a> ·
+        GitHub: <a href="https://github.com/anyaforger" target="_blank" rel="noopener">anyaforger</a>
+      </p>
+    </section>
+
+    <!-- PROYEK -->
+    <section id="proyek" aria-labelledby="judul-proyek">
+      <h2 id="judul-proyek">Proyek Terpilih</h2>
+
+      <article>
+        <h3>Website Katalog Buku</h3>
+        <p>
+          Proyek latihan membuat website katalog buku sederhana dengan fitur pencarian dan form pemesanan.
+        </p>
+        <ul>
+          <li>Peran: Front-End Developer</li>
+          <li>Teknologi: HTML5, JavaScript</li>
+          <li>Tahun: <time datetime="2025">2025</time></li>
+        </ul>
+        <p><a href="https://example.com/buku" target="_blank" rel="noopener">Lihat Demo</a></p>
+      </article>
+
+      <article>
+        <h3>Aplikasi Catatan Harian</h3>
+        <p>
+          Aplikasi berbasis web untuk mencatat aktivitas harian menggunakan penyimpanan lokal browser.
+        </p>
+        <ul>
+          <li>Peran: Fullstack</li>
+          <li>Teknologi: HTML5, LocalStorage API</li>
+          <li>Tahun: <time datetime="2025">2025</time></li>
+        </ul>
+        <p><a href="https://example.com/catatan" target="_blank" rel="noopener">Lihat Proyek</a></p>
+      </article>
+    </section>
+
+    <!-- KEAHLIAN -->
+    <section id="keahlian" aria-labelledby="judul-keahlian">
+      <h2 id="judul-keahlian">Keahlian</h2>
+      <ul>
+        <li>HTML5 & Struktur Semantik</li>
+        <li>Dasar JavaScript</li>
+        <li>Desain Responsif</li>
+        <li>Git & Version Control</li>
+      </ul>
+
+      <details>
+        <summary>Detail Keahlian Teknis</summary>
+        <dl>
+          <dt>Front-End</dt><dd>HTML5, validasi & aksesibilitas</dd>
+          <dt>Back-End</dt><dd>PHP dasar</dd>
+          <dt>Tools</dt><dd>VS Code, Git</dd>
+        </dl>
+      </details>
+    </section>
+
+    <!-- PENGALAMAN -->
+    <section id="pengalaman" aria-labelledby="judul-pengalaman">
+      <h2 id="judul-pengalaman">Pengalaman</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Peran</th>
+            <th>Organisasi</th>
+            <th>Periode</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Magang Web Developer</td>
+            <td>Tech Studio</td>
+            <td><time datetime="2024-09">Sep 2024</time> – <time datetime="2025-01">Jan 2025</time></td>
+          </tr>
+          <tr>
+            <td>Volunteer IT Support</td>
+            <td>Community Center</td>
+            <td><time datetime="2023-01">Jan 2023</time> – <time datetime="2023-06">Jun 2023</time></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr><td colspan="3">Data dummy pengalaman</td></tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <!-- ASIDE -->
+    <aside>
+      <h2>Catatan</h2>
+      <p>Versi HTML ini tidak menggunakan CSS agar fokus pada struktur semantik dan markup bersih.</p>
+    </aside>
+
+    <!-- KONTAK -->
+    <section id="kontak" aria-labelledby="judul-kontak">
+      <h2 id="judul-kontak">Kontak</h2>
+      <form action="/kirim" method="POST">
+        <fieldset>
+          <legend>Formulir Kontak</legend>
+
+          <label for="nama">Nama</label>
+          <input id="nama" name="nama" type="text" placeholder="Masukkan nama" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="nama@email.com" required>
+
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan…"></textarea>
+
+          <button type="submit">Kirim</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© <time datetime="2025">2025</time> Anya Forger · <a href="#beranda">Kembali ke atas</a></p>
+  </footer>
+</body>
+</html>

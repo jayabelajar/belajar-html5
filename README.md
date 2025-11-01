@@ -67,7 +67,7 @@ Silakan gunakan, modifikasi, dan sebarkan dengan tetap mencantumkan kredit penul
 ## 👤 Penulis
 **Mulyo Anjang Jaya Kusuma**  
 🎓 Mahasiswa Teknik Informatika • Web & Front-End Enthusiast  
-🌐 [GitHub](https://github.com/jayabelajar) • [LinkedIn](https://linkedin.com/jykusuma)
+🌐 [GitHub](https://github.com/jayabelajar) • [LinkedIn](www.linkedin.com/in/jykusuma)
 
 > “HTML5 bukan sekadar markup, tapi fondasi dari pengalaman web yang modern, aksesibel, dan dinamis.”
 
